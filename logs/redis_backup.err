@@ -1,0 +1,17 @@
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:2391: Warning: Region fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:4339: Warning: DiskReplicasNum,DiskShardSize,ApplicationVersion,DiskShardNum,WanAddress,PolarisServer fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:5467: Warning: ZoneName fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:1107: Warning: Region fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:5319: Warning: ExpireTime,BackupSize,EndTime,FileType,FullBackup,InstanceType fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:2391: Warning: Region fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:4339: Warning: DiskShardNum,ApplicationVersion,DiskShardSize,PolarisServer,WanAddress,DiskReplicasNum fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:5467: Warning: ZoneName fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:1107: Warning: Region fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:5319: Warning: InstanceType,BackupSize,FullBackup,FileType,ExpireTime,EndTime fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:822: Warning: Filenames,BackupInfos fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:2391: Warning: Region fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:4339: Warning: ApplicationVersion,PolarisServer,DiskReplicasNum,DiskShardNum,DiskShardSize,WanAddress fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:5467: Warning: ZoneName fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:1107: Warning: Region fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:5319: Warning: EndTime,InstanceType,ExpireTime,FileType,BackupSize,FullBackup fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/redis/v20180412/models.py:822: Warning: BackupInfos,Filenames fileds are useless.

@@ -1,0 +1,200 @@
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: SwitchEndTime,DBNodeSet,DBInstanceClassName,NetworkAccessList,DBKernelVersion,DBMajorVersion,SwitchStartTime fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBKernelVersion,SwitchStartTime,DBMajorVersion,DBNodeSet,SwitchEndTime,NetworkAccessList,DBInstanceClassName fileds are useless.
+2022-03-09 09:41:49,112 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-09%2Fautomatic-20220309003224.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646776767%3B1646780367&q-key-time=1646776767%3B1646780367&q-header-list=host&q-url-param-list=&q-signature=4515a46a4204d714333727a75ac72715cf4b8118 /data/backup/pg/full/lupiaoer-postgres-prod_20220309003224.tar 33590706198 37944921600
+
+2022-03-09 09:41:49,122 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-09%2Fautomatic-20220309003224.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646776767%3B1646780367&q-key-time=1646776767%3B1646780367&q-header-list=host&q-url-param-list=&q-signature=4515a46a4204d714333727a75ac72715cf4b8118', 'path': '/data/backup/pg/full', 'filename': 'lupiaoer-postgres-prod_20220309003224.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-rkt2ixrf', 'filter_date': '2022-03-09', 'instance_name': 'lupiaoer-postgres-prod'} ]
+2022-03-09 12:28:48,722 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-09%2Fautomatic-20220309003224.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646790070%3B1646793670&q-key-time=1646790070%3B1646793670&q-header-list=host&q-url-param-list=&q-signature=63783b3d9e98e3dc1a326e329df562c6d28a8dd2 /data/backup/pg/full/lupiaoer-postgres-prod_20220309003224.tar 2785047505 4354215402
+
+2022-03-09 12:28:48,722 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-09%2Fautomatic-20220309003224.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646790070%3B1646793670&q-key-time=1646790070%3B1646793670&q-header-list=host&q-url-param-list=&q-signature=63783b3d9e98e3dc1a326e329df562c6d28a8dd2', 'path': '/data/backup/pg/full', 'filename': 'lupiaoer-postgres-prod_20220309003224.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-rkt2ixrf', 'filter_date': '2022-03-09', 'instance_name': 'lupiaoer-postgres-prod'} ]
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBMajorVersion,NetworkAccessList,DBKernelVersion,SwitchEndTime,SwitchStartTime,DBNodeSet,DBInstanceClassName fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBMajorVersion,DBKernelVersion,NetworkAccessList,SwitchEndTime,DBInstanceClassName,DBNodeSet,SwitchStartTime fileds are useless.
+2022-03-11 06:11:19,950 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-11%2Fautomatic-20220311020131.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949565%3B1646953165&q-key-time=1646949565%3B1646953165&q-header-list=host&q-url-param-list=&q-signature=dd9b67ccb1b6cc4b084249e9055c06793a0641e9 /data/backup/pg/full/ecoo-etc-refuel-prod_20220311020131.tar 45412595 630747136
+
+2022-03-11 06:11:19,951 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-11%2Fautomatic-20220311020131.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949565%3B1646953165&q-key-time=1646949565%3B1646953165&q-header-list=host&q-url-param-list=&q-signature=dd9b67ccb1b6cc4b084249e9055c06793a0641e9', 'path': '/data/backup/pg/full', 'filename': 'ecoo-etc-refuel-prod_20220311020131.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-gmmi3f7x', 'filter_date': '2022-03-11', 'instance_name': 'ecoo-etc-refuel-prod'} ]
+2022-03-11 06:12:24,152 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012493%2Fdata%2F2022-03-11%2Fautomatic-20220311032538.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949566%3B1646953166&q-key-time=1646949566%3B1646953166&q-header-list=host&q-url-param-list=&q-signature=8acc2d668a13d4995db724e9958474825f714d3e /data/backup/pg/full/cloudsa-postgres-prod_20220311032538.tar 47409492 2995767296
+
+2022-03-11 06:12:24,152 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012493%2Fdata%2F2022-03-11%2Fautomatic-20220311032538.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949566%3B1646953166&q-key-time=1646949566%3B1646953166&q-header-list=host&q-url-param-list=&q-signature=8acc2d668a13d4995db724e9958474825f714d3e', 'path': '/data/backup/pg/full', 'filename': 'cloudsa-postgres-prod_20220311032538.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-mnfkuha9', 'filter_date': '2022-03-11', 'instance_name': 'cloudsa-postgres-prod'} ]
+2022-03-11 06:12:53,357 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-11%2Fautomatic-20220311003142.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949566%3B1646953166&q-key-time=1646949566%3B1646953166&q-header-list=host&q-url-param-list=&q-signature=c8c272cd8b199bf67635cdaf23fcca398e8023d7 /data/backup/pg/full/lupiaoer-postgres-prod_20220311003143.tar 13748695 41060567040
+
+2022-03-11 06:12:53,358 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-11%2Fautomatic-20220311003142.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949566%3B1646953166&q-key-time=1646949566%3B1646953166&q-header-list=host&q-url-param-list=&q-signature=c8c272cd8b199bf67635cdaf23fcca398e8023d7', 'path': '/data/backup/pg/full', 'filename': 'lupiaoer-postgres-prod_20220311003143.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-rkt2ixrf', 'filter_date': '2022-03-11', 'instance_name': 'lupiaoer-postgres-prod'} ]
+2022-03-11 06:13:03,780 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012492%2Fdata%2F2022-03-11%2Fautomatic-20220311020120.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949565%3B1646953165&q-key-time=1646949565%3B1646953165&q-header-list=host&q-url-param-list=&q-signature=cb0334da68baadad65e8a6c0d6074cd278859049 /data/backup/pg/full/ecoo-comm-server-comm_20220311020120.tar 47630454 26322736128
+
+2022-03-11 06:13:03,780 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012492%2Fdata%2F2022-03-11%2Fautomatic-20220311020120.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1646949565%3B1646953165&q-key-time=1646949565%3B1646953165&q-header-list=host&q-url-param-list=&q-signature=cb0334da68baadad65e8a6c0d6074cd278859049', 'path': '/data/backup/pg/full', 'filename': 'ecoo-comm-server-comm_20220311020120.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-dfrv05l1', 'filter_date': '2022-03-11', 'instance_name': 'ecoo-comm-server-comm'} ]
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: SwitchStartTime,SwitchEndTime,DBKernelVersion,DBInstanceClassName,NetworkAccessList,DBMajorVersion,DBNodeSet fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBKernelVersion,SwitchStartTime,SwitchEndTime,DBMajorVersion,NetworkAccessList,DBInstanceClassName,DBNodeSet fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBNodeSet,DBKernelVersion,DBMajorVersion,NetworkAccessList,DBInstanceClassName,SwitchEndTime,SwitchStartTime fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBInstanceClassName,DBNodeSet,NetworkAccessList,SwitchStartTime,SwitchEndTime,DBKernelVersion,DBMajorVersion fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBInstanceClassName,DBKernelVersion,SwitchStartTime,DBMajorVersion,NetworkAccessList,SwitchEndTime,DBNodeSet fileds are useless.
+2022-03-16 06:04:43,756 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-16%2Fautomatic-20220316020128.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381557%3B1647385157&q-key-time=1647381557%3B1647385157&q-header-list=host&q-url-param-list=&q-signature=b3672e7ade5b04223f27a7d563b9eed7ac4043f3 /data/backup/pg/full/ecoo-etc-refuel-prod_20220316020128.tar 32801055 636489728
+
+2022-03-16 06:04:43,757 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-16%2Fautomatic-20220316020128.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381557%3B1647385157&q-key-time=1647381557%3B1647385157&q-header-list=host&q-url-param-list=&q-signature=b3672e7ade5b04223f27a7d563b9eed7ac4043f3', 'path': '/data/backup/pg/full', 'filename': 'ecoo-etc-refuel-prod_20220316020128.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-gmmi3f7x', 'filter_date': '2022-03-16', 'instance_name': 'ecoo-etc-refuel-prod'} ]
+2022-03-16 06:04:50,940 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012492%2Fdata%2F2022-03-16%2Fautomatic-20220316020117.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381557%3B1647385157&q-key-time=1647381557%3B1647385157&q-header-list=host&q-url-param-list=&q-signature=e05667587f27a48d493e5f3023ab2706499fdfd5 /data/backup/pg/full/ecoo-comm-server-comm_20220316020117.tar 32899259 26323506176
+
+2022-03-16 06:04:50,941 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012492%2Fdata%2F2022-03-16%2Fautomatic-20220316020117.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381557%3B1647385157&q-key-time=1647381557%3B1647385157&q-header-list=host&q-url-param-list=&q-signature=e05667587f27a48d493e5f3023ab2706499fdfd5', 'path': '/data/backup/pg/full', 'filename': 'ecoo-comm-server-comm_20220316020117.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-dfrv05l1', 'filter_date': '2022-03-16', 'instance_name': 'ecoo-comm-server-comm'} ]
+2022-03-16 06:08:59,008 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012494%2Fdata%2F2022-03-16%2Fautomatic-20220316020117.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381558%3B1647385158&q-key-time=1647381558%3B1647385158&q-header-list=host&q-url-param-list=&q-signature=0f8e959468ee0b18cf3958254298a468acbe65e3 /data/backup/pg/full/weshop-wolf-server-prod_20220316020117.tar 32882900 93219328
+
+2022-03-16 06:08:59,009 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012494%2Fdata%2F2022-03-16%2Fautomatic-20220316020117.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381558%3B1647385158&q-key-time=1647381558%3B1647385158&q-header-list=host&q-url-param-list=&q-signature=0f8e959468ee0b18cf3958254298a468acbe65e3', 'path': '/data/backup/pg/full', 'filename': 'weshop-wolf-server-prod_20220316020117.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-7r1pgkyr', 'filter_date': '2022-03-16', 'instance_name': 'weshop-wolf-server-prod'} ]
+2022-03-16 06:09:57,908 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-16%2Fautomatic-20220316003239.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381558%3B1647385158&q-key-time=1647381558%3B1647385158&q-header-list=host&q-url-param-list=&q-signature=ee23773eaf003cbaf3699279630fae442532389b /data/backup/pg/full/lupiaoer-postgres-prod_20220316003239.tar 11882746 44575145984
+
+2022-03-16 06:09:57,908 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-16%2Fautomatic-20220316003239.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381558%3B1647385158&q-key-time=1647381558%3B1647385158&q-header-list=host&q-url-param-list=&q-signature=ee23773eaf003cbaf3699279630fae442532389b', 'path': '/data/backup/pg/full', 'filename': 'lupiaoer-postgres-prod_20220316003239.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-rkt2ixrf', 'filter_date': '2022-03-16', 'instance_name': 'lupiaoer-postgres-prod'} ]
+2022-03-16 06:13:06,200 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-16%2Fautomatic-20220316020128.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381838%3B1647385438&q-key-time=1647381838%3B1647385438&q-header-list=host&q-url-param-list=&q-signature=d177eef7c7f685961628b7dc9b55ad0475006c33 /data/backup/pg/full/ecoo-etc-refuel-prod_20220316020128.tar 9443912 603688673
+
+2022-03-16 06:13:06,201 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-16%2Fautomatic-20220316020128.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381838%3B1647385438&q-key-time=1647381838%3B1647385438&q-header-list=host&q-url-param-list=&q-signature=d177eef7c7f685961628b7dc9b55ad0475006c33', 'path': '/data/backup/pg/full', 'filename': 'ecoo-etc-refuel-prod_20220316020128.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-gmmi3f7x', 'filter_date': '2022-03-16', 'instance_name': 'ecoo-etc-refuel-prod'} ]
+2022-03-16 07:08:23,318 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-sh-1300951326.cos.ap-shanghai.myqcloud.com/pgsql%2F411386%2Fdata%2F2022-03-16%2Fautomatic-20220316023035.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381559%3B1647385159&q-key-time=1647381559%3B1647385159&q-header-list=host&q-url-param-list=&q-signature=84098811d1f62b15c1344c7e95bf14df9230e7d0 /data/backup/pg/full/HR系统-PG线上库_20220316023035.tar 1180467920 2600207360
+
+2022-03-16 07:08:23,340 - fail function use [ {'url': 'http://postgres-backup-sh-1300951326.cos.ap-shanghai.myqcloud.com/pgsql%2F411386%2Fdata%2F2022-03-16%2Fautomatic-20220316023035.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647381559%3B1647385159&q-key-time=1647381559%3B1647385159&q-header-list=host&q-url-param-list=&q-signature=84098811d1f62b15c1344c7e95bf14df9230e7d0', 'path': '/data/backup/pg/full', 'filename': 'HR系统-PG线上库_20220316023035.tar', 'download_timeout': 1800, 'region': 'ap-shanghai', 'instance_id': 'postgres-6sfh96ne', 'filter_date': '2022-03-16', 'instance_name': 'HR系统-PG线上库'} ]
+2022-03-16 07:28:09,361 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-sh-1300951326.cos.ap-shanghai.myqcloud.com/pgsql%2F411386%2Fdata%2F2022-03-16%2Fautomatic-20220316023035.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647385657%3B1647389257&q-key-time=1647385657%3B1647389257&q-header-list=host&q-url-param-list=&q-signature=bf7e0b2da71ce46a3e68780a4a440d97ea331573 /data/backup/pg/full/HR系统-PG线上库_20220316023035.tar 753287667 1419739440
+
+2022-03-16 07:28:09,362 - fail function use [ {'url': 'http://postgres-backup-sh-1300951326.cos.ap-shanghai.myqcloud.com/pgsql%2F411386%2Fdata%2F2022-03-16%2Fautomatic-20220316023035.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647385657%3B1647389257&q-key-time=1647385657%3B1647389257&q-header-list=host&q-url-param-list=&q-signature=bf7e0b2da71ce46a3e68780a4a440d97ea331573', 'path': '/data/backup/pg/full', 'filename': 'HR系统-PG线上库_20220316023035.tar', 'download_timeout': 1800, 'region': 'ap-shanghai', 'instance_id': 'postgres-6sfh96ne', 'filter_date': '2022-03-16', 'instance_name': 'HR系统-PG线上库'} ]
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: SubnetId,VpcId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: NetworkAccessList,SwitchStartTime,SwitchEndTime,DBInstanceClassName,DBMajorVersion,DBKernelVersion,DBNodeSet fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: SwitchStartTime,DBInstanceClassName,NetworkAccessList,DBMajorVersion,DBNodeSet,DBKernelVersion,SwitchEndTime fileds are useless.
+2022-03-18 06:02:06,037 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-18%2Fautomatic-20220318020040.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647554358%3B1647557958&q-key-time=1647554358%3B1647557958&q-header-list=host&q-url-param-list=&q-signature=5f66a4ba15ffe0b03bd95db9de5a2c3e919578b4 /data/backup/pg/full/ecoo-etc-refuel-prod_20220318020040.tar 11146191 640692224
+
+2022-03-18 06:02:06,038 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012495%2Fdata%2F2022-03-18%2Fautomatic-20220318020040.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647554358%3B1647557958&q-key-time=1647554358%3B1647557958&q-header-list=host&q-url-param-list=&q-signature=5f66a4ba15ffe0b03bd95db9de5a2c3e919578b4', 'path': '/data/backup/pg/full', 'filename': 'ecoo-etc-refuel-prod_20220318020040.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-gmmi3f7x', 'filter_date': '2022-03-18', 'instance_name': 'ecoo-etc-refuel-prod'} ]
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: NetworkAccessList,SwitchEndTime,DBNodeSet,DBKernelVersion,DBMajorVersion,DBInstanceClassName,SwitchStartTime fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBNodeSet,SwitchEndTime,DBKernelVersion,NetworkAccessList,DBMajorVersion,DBInstanceClassName,SwitchStartTime fileds are useless.
+2022-03-20 06:04:41,346 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012492%2Fdata%2F2022-03-20%2Fautomatic-20220320020052.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647727155%3B1647730755&q-key-time=1647727155%3B1647730755&q-header-list=host&q-url-param-list=&q-signature=ae477d538f34c1537e6587ae16e313051989caa8 /data/backup/pg/full/ecoo-comm-server-comm_20220320020052.tar 11759981 26323923968
+
+2022-03-20 06:04:41,347 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012492%2Fdata%2F2022-03-20%2Fautomatic-20220320020052.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647727155%3B1647730755&q-key-time=1647727155%3B1647730755&q-header-list=host&q-url-param-list=&q-signature=ae477d538f34c1537e6587ae16e313051989caa8', 'path': '/data/backup/pg/full', 'filename': 'ecoo-comm-server-comm_20220320020052.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-dfrv05l1', 'filter_date': '2022-03-20', 'instance_name': 'ecoo-comm-server-comm'} ]
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBInstanceClassName,NetworkAccessList,DBNodeSet,DBMajorVersion,SwitchEndTime,DBKernelVersion,SwitchStartTime fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: SwitchEndTime,DBNodeSet,DBMajorVersion,DBKernelVersion,SwitchStartTime,DBInstanceClassName,NetworkAccessList fileds are useless.
+2022-03-22 11:24:11,172 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-22%2Fautomatic-20220322003245.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647899955%3B1647903555&q-key-time=1647899955%3B1647903555&q-header-list=host&q-url-param-list=&q-signature=5c6ee58b222dcc20523e40580bec651013c3aa41 /data/backup/pg/full/lupiaoer-postgres-prod_20220322003245.tar 9968972242 44842939904
+
+2022-03-22 11:24:11,188 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-22%2Fautomatic-20220322003245.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647899955%3B1647903555&q-key-time=1647899955%3B1647903555&q-header-list=host&q-url-param-list=&q-signature=5c6ee58b222dcc20523e40580bec651013c3aa41', 'path': '/data/backup/pg/full', 'filename': 'lupiaoer-postgres-prod_20220322003245.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-rkt2ixrf', 'filter_date': '2022-03-22', 'instance_name': 'lupiaoer-postgres-prod'} ]
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1090: Warning: VpcId,SubnetId fileds are useless.
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:1050: Warning: DBKernelVersion,DBNodeSet,SwitchEndTime,DBMajorVersion,SwitchStartTime,NetworkAccessList,DBInstanceClassName fileds are useless.
+2022-03-23 06:04:17,644 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012494%2Fdata%2F2022-03-23%2Fautomatic-20220323020023.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647986353%3B1647989953&q-key-time=1647986353%3B1647989953&q-header-list=host&q-url-param-list=&q-signature=7af8e90f63d301233d4a4dfc5b4e5f28646c78ba /data/backup/pg/full/weshop-wolf-server-prod_20220323020023.tar 21474403 93219328
+
+2022-03-23 06:04:17,645 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012494%2Fdata%2F2022-03-23%2Fautomatic-20220323020023.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647986353%3B1647989953&q-key-time=1647986353%3B1647989953&q-header-list=host&q-url-param-list=&q-signature=7af8e90f63d301233d4a4dfc5b4e5f28646c78ba', 'path': '/data/backup/pg/full', 'filename': 'weshop-wolf-server-prod_20220323020023.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-7r1pgkyr', 'filter_date': '2022-03-23', 'instance_name': 'weshop-wolf-server-prod'} ]
+2022-03-23 06:08:10,410 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-23%2Fautomatic-20220323003221.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647986354%3B1647989954&q-key-time=1647986354%3B1647989954&q-header-list=host&q-url-param-list=&q-signature=c5c599eb7d4a0755960233a9a49ae5b1808f7858 /data/backup/pg/full/lupiaoer-postgres-prod_20220323003221.tar 20565966 44861724672
+
+2022-03-23 06:08:10,410 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012497%2Fdata%2F2022-03-23%2Fautomatic-20220323003221.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647986354%3B1647989954&q-key-time=1647986354%3B1647989954&q-header-list=host&q-url-param-list=&q-signature=c5c599eb7d4a0755960233a9a49ae5b1808f7858', 'path': '/data/backup/pg/full', 'filename': 'lupiaoer-postgres-prod_20220323003221.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-rkt2ixrf', 'filter_date': '2022-03-23', 'instance_name': 'lupiaoer-postgres-prod'} ]
+2022-03-23 06:08:11,770 - Traceback (most recent call last):
+  File "/data/work/dba-in-cloud/libs/myconcurrent.py", line 60, in __single_thread_exe
+    self.target(**arg)
+  File "/data/work/dba-in-cloud/libs/utils.py", line 104, in download_file_ex
+    raise Exception("download length not match %s %s %s %s" % (url,filename,data_count,content_size))
+Exception: download length not match http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012493%2Fdata%2F2022-03-23%2Fautomatic-20220323032427.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647986353%3B1647989953&q-key-time=1647986353%3B1647989953&q-header-list=host&q-url-param-list=&q-signature=2e08e07ecf4a578f61bf3c70a380746315e6dd5b /data/backup/pg/full/cloudsa-postgres-prod_20220323032427.tar 67206584 2987180032
+
+2022-03-23 06:08:11,771 - fail function use [ {'url': 'http://postgres-backup-gz-1300951326.cos.ap-guangzhou.myqcloud.com/pgsql%2F1012493%2Fdata%2F2022-03-23%2Fautomatic-20220323032427.tar.gz?q-sign-algorithm=sha1&q-ak=AKIDa9jU0IrGva0B8zk90gAQRZVDk283nTCh&q-sign-time=1647986353%3B1647989953&q-key-time=1647986353%3B1647989953&q-header-list=host&q-url-param-list=&q-signature=2e08e07ecf4a578f61bf3c70a380746315e6dd5b', 'path': '/data/backup/pg/full', 'filename': 'cloudsa-postgres-prod_20220323032427.tar', 'download_timeout': 1800, 'region': 'ap-guangzhou', 'instance_id': 'postgres-mnfkuha9', 'filter_date': '2022-03-23', 'instance_name': 'cloudsa-postgres-prod'} ]
+/data/python37/lib/python3.7/site-packages/tencentcloud_sdk_python-3.0.426-py3.7.egg/tencentcloud/postgres/v20170312/models.py:887: Warning: SetId fileds are useless.
